@@ -1,4 +1,4 @@
-<img  src='../logo.png' height='70px'>
+<img  src='./logo.png' height='70px'>
 
 # Lección 2: Introducción Integral a Javascript
 

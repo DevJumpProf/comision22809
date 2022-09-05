@@ -1,4 +1,4 @@
-<img  src='../logo.png' height='70px'>
+<img  src='./logo.jpg' height='70px'>
 
 # Interacción: alert, prompt, confirm
 
