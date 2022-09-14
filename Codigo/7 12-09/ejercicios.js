@@ -1,11 +1,8 @@
-
+//funcioN
 //pedimos los datos a la persona.(nombre - edad)
 // indicar si la pérsona es mayor de 18 puede pasar
 // si la persona llego antes de las 2 no paga entrada
 // si la persona llego despues de las 2 paga en pesos la suma de las letras de su nombre + su edad
-
-
-
 
 // reemplaza `null` por la respuesta
 
@@ -166,7 +163,7 @@ function agregarSimboloExclamacion(str) {
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
-  // Ejemplo: "Soy", "Bruce Wayne" -> "Soy Bruce Wayne"
+  // Ejemplo: "Soy", "Bruce Wayne" -> "Bruce Wayne"
   // Tu código:
 
 }
