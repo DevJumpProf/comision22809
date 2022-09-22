@@ -108,8 +108,7 @@ const redondearNumero=num =>
 document.write(Math.round(num)+ "</br>")
 redondearNumero(6.3)
 
-const redondearHaciaArriba= num =>
-  document.write(Math.ceil(num)+ "</br>")
+const redondearHaciaArriba= num =>document.write(Math.ceil(num)+ "</br>")
 redondearHaciaArriba(6.3)
 
 const  numeroRandom =()=> 
@@ -118,68 +117,85 @@ document.write(Math.random(0,1)+ "</br>")
 numeroRandom()
 
 
-function esPositivo(numero) {
+const esPositivo=numero =>{
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+  if (numero>0){
+    document.write("Es Positivo" + "</br>")
+  }else if (numero<0){
+    document.write("Es Negativo" + "</br>")
+  }else{
+    document.write(false)
+  }
 
 }
+/* numero==0 ? false : numero>0 ? "Es positivo" : "Es negativo"; */
+esPositivo(10)
 
-function agregarSimboloExclamacion(str) {
-  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
-  // Ejemplo: "hello world" pasaría a ser "hello world!"
-  // Tu código:
+const agregarSimboloExclamacion =str => document.write(`${str}`);agregarSimboloExclamacion ("hello world"+ "</br>")
 
-}
-
-function combinarNombres(nombre, apellido) {
+const combinarNombres = (nombre, apellido)=> {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Bruce Wayne" -> "Bruce Wayne"
   // Tu código:
-
+  document.write(`${nombre} ${apellido}`)
 }
+combinarNombres ("Bruce", "Wayne"+ "</br>")
 
-function obtenerSaludo(nombre) {
+const obtenerSaludo =nombre =>
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+document.write (`Hola ${nombre}`)
 
-}
+obtenerSaludo("Martin"+ "</br>")
 
-function obtenerAreaRectangulo(alto, ancho) {
+const obtenerAreaRectangulo = (alto, ancho) =>{
   // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
-
+  document.write (alto*ancho + "</br>")
 }
+obtenerAreaRectangulo(4,4)
 
-function retornarPerimetro(lado){
-  //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+const retornarPerimetro = lado =>   document.write (lado*4 + "</br>"); retornarPerimetro (8) //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
 
-}
 
-function areaDelTriangulo(base, altura){
+const areaDelTriangulo = (base, altura)=>{
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+document.write ((base*altura)/2 + "</br>")
+/* document.write (0.5*base*altura) */
 
 }
+areaDelTriangulo(12,15)
 
-function deEuroAdolar(euro){
+const deEuroAdolar = euro=>
   //Supongamos que 1 euro equivale a 1.20 dólares. 
   //Escribe un programa que pida al usuario un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
 
-}
+document.write(`El cambio en dolares es ${euro*1.20}`)
+
+/* deEuroAdolar(Number(prompt("Cantidad de Euros"))) */
 
 
-function esVocal(letra){
+const esVocal=letra=>{
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
     //si ingresa una consonante muestre en pantalla dato incorrecto
   //Escribe tu código aquí
 
+  if (letra.length != 1){
+    document.write("Dato Incorrecto ingresaste mas de un caracter")
+  }else if (letra == "a" ||letra == "e" ||letra == "i" ||letra == "o" ||letra == "u"  ){
+    document.write(`Efectivamente la letra ${letra}...es Vocal : )`)
+  }else{
+    document.write(`ingresaste  ${letra}...no es vocal: (`)
+  }
 
 }
+esVocal(prompt("decime una letra").toLowerCase())
