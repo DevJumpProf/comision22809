@@ -8,7 +8,7 @@ Marcos, Franco, Agostina, Leon, Juan Cruz,Eduardo */
 /* 2)recorre el array (clasificaciones) e Imprime la clasificación actual.
  (realizar una funcion "mostrarClasificacion()" esa funcion debe recorrer el array con un bucle for y mostrar la clasificacion) */
 
-//modo Correcto ForEach (pueod usar tambien document.write)
+//modo Correcto ForEach (puedp usar tambien document.write)
 
 /* 3)El concurso continua, y se van modifican esas posiciones anteriores. Debemos cambiar en el array: */
 /* a)Leon adelanta a Agostina */
