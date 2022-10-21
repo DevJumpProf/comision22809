@@ -161,9 +161,7 @@ Vimos en el último ejemplo el operador `++`. Esta es la abreviatura de Javascri
 
 ### Bucles infinitos
 
-Es posible que un bucle se atasque en lo que llamamos un "bucle infinito". Debes asegurarte de que haya una forma de finalizar el bucle. 
-
-Ejemplo de un bucle infinito:
+Es posible que un bucle se atasque en lo que llamamos un "bucle infinito". Debes asegurarte de que haya una forma de finalizar el bucle. Ejemplo de un bucle infinito:
 
 ```javascript
 for (let i = 0; i >= 0; i++) {

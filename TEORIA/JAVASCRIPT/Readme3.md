@@ -1,4 +1,4 @@
-
+<img  src='../logo.png' height='70px'>
 
 # Lección 3: Javascript III (continuación de bucles `for` y Arrays)
 
@@ -21,9 +21,7 @@ const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
 
 ### .length
 
-Al igual que el tipo de dato _String_ tiene un método incorporado `.length`, también lo hace la matriz. 
-De hecho, la matriz tiene muchos métodos incorporados útiles (los discutiremos en lecciones posteriores). 
-Al igual que la cadena `.length` cuenta los caracteres, la matriz` .length` devolverá el número de elementos en una matriz:
+Al igual que el tipo de dato _String_ tiene un método incorporado `.length`, también lo hace la matriz. De hecho, la matriz tiene muchos métodos incorporados útiles (los discutiremos en lecciones posteriores). Al igual que la cadena `.length` cuenta los caracteres, la matriz` .length` devolverá el número de elementos en una matriz:
 
 ```javascript
 const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];

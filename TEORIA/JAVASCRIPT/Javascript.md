@@ -1,4 +1,4 @@
-<img  src='./logo.png' height='70px'>
+<img  src='../logo.png' height='70px'>
 
 # Lección 0: Javascript
 
@@ -23,6 +23,7 @@ Estructurado siguiendo la lógica de programación
 Tenemos los lenguajes compilados y los interpretados: Compilados son los que pasan por un compilador y lo convierte a Binario
 
 •	Orientado a Objetos:  en donde sus estructura abarca todos los conceptos ( clases herencias, polimorfismo etc.)
+
 •	Imperativo: todas las introducciones van de línea en línea (Paso a Paso)
 
 •	Case Sensitive (upper and lower case) (Mayusculas y minusculas)
@@ -36,7 +37,7 @@ Tenemos los lenguajes compilados y los interpretados: Compilados son los que pas
 ## Formas de enlazar JavaScript
 
 En Linea : 
- <h1 onclick= "alert ('hola')">    Hola</h1>
+ <h1 onclick= "alert ('hola')">Hola</h1>
 
 Como contenido en la etiqueta <script> : 
 <script type="text/javascript">alert('hola')</script>
