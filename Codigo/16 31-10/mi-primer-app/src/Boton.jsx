@@ -14,7 +14,9 @@ export default Boton; */
 function Boton ({numero,nombre = "Default"}){ 
 /*   console.log(props) */
    return (
-    <button>{numero} - {nombre} </button>
+    <button onClick={function(){
+        alert ("hiciste click")
+    }}>{numero} - {nombre} </button>
     )
 }
 

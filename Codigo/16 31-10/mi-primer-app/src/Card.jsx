@@ -6,7 +6,7 @@ function Card ({nombre, edad,amistades,dc}){
             <h1>{nombre} </h1>
             <p>{edad}</p>
             <p>{amistades}</p>
-            <small>{dc ? "es de DC 💪" : "es de marvel ⚡"}</small>
+            <small style={{backgroundColor:"blue"}}>{dc ? "es de DC 💪" : "es de marvel ⚡"}</small>
         </div>
     )
 }
