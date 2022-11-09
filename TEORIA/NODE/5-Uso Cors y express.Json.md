@@ -23,7 +23,7 @@ Access-Control-Allow-Methods: GET,HEAD,PUT,PATCH,POST,DELETE
 Status Code: 204
 Básicamente, lo que está haciendo es hacer que su servidor sea accesible para cualquier dominio que solicite un recurso de su servidor a través de un navegador.
 
-puede consultar todas las corsconfiguraciones express aquí: https://github.com/expressjs/cors
+puede consultar todas las cors configuraciones express aquí: https://github.com/expressjs/cors
 
 también puede leer más sobre el navegador corsaquí: https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
 
