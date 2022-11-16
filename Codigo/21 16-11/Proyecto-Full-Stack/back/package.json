@@ -1,13 +1,12 @@
 {
   "name": "back",
   "version": "1.0.0",
-  "description": "Servidor del proyecto: Blogs",
+  "description": "back del proyecto full stack",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Gabriel Muñoz",
   "license": "ISC",
   "dependencies": {
