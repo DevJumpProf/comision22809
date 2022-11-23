@@ -1,5 +1,5 @@
 import axios from "axios"
-import { useState,UseEffect } from "react"
+import { useState,useEffect } from "react"
 import {Link} from "react-router-dom"
 
 const url = "http://localhost:8000/blogs/"
@@ -28,3 +28,5 @@ getBlogs()
 
 
 }
+
+export default ShowBlogs

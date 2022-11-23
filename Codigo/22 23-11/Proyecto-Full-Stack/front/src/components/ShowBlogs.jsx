@@ -24,40 +24,53 @@ const deleteBlog = async (id)=>{
 await axios.delete(`${url}${id}`)
 getBlogs()
 }
-return (
-<div className="container">
-    <div className="row">
-        <div className="col">
-<small>CREAR POST</small>
+
+return(
+    <div className="container">
+<div className="row">
+    <div className="col">
+<small>CREAR BLOG</small>
 <Link to="/create" className="btn btn-primary mt-2 mb-2"><i className="fas fa-plus"></i></Link>
+
 <table className="table">
-<thead className="table-primary">
+    <thead className="table-primary">
 <tr>
+     <th>ID</th>
     <th>Title</th>
-    <th>Content</th>
+    <th>content</th>
     <th>Actions</th>
 </tr>
-</thead>
+    </thead>
+
+
 <tbody>
-    {blogs.map((blog)=>(
-       <tr key= {blog.id}>
-<td>{blog.title}</td>
-<td>{blog.content}</td>
+{blogs.map((blog)=>(
+<tr key={blog.id}>
+<td>{blog.id} </td>  
+<td>{blog.title} </td>  
+<td>{blog.content} </td>
 <td>
-<Link to ={`/edit/${blog.id}`} className="btn btn-info"><i className="fas fa-edit"></i></Link>
-<button onClick={()=>deleteBlog(blog.id)} className="btn btn-danger"><i className="fas fa-trash"></i></button>
+    <Link to = {`/edit/${blog.id}`} className="btn btn-info"><i className="fas fa-edit"></i> </Link>
+    <button onClick={()=>deleteBlog(blog.id)} className="btn btn-danger"><i className="fas fa-trash"></i></button>
 </td>
+</tr>
 
-       </tr>
-    ))}
+
+))}
+
 </tbody>
-</table>
-        </div>
-    </div>
 
+</table>
+
+
+    </div>
 </div>
 
+
+    </div>
 )
+
+
 
 }
 

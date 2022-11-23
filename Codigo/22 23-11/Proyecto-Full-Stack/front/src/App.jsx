@@ -15,8 +15,10 @@ function App() {
       </header>
 <BrowserRouter>
 <Routes>
-<Route path='/' element={<ShowBlogs/>}    />
 
+<Route path='/' element={<ShowBlogs/>}    />
+  
+<Route path='/create' element="FUNCIONAAAA"   />
 
 </Routes>
 

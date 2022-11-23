@@ -328,7 +328,7 @@ function Counter() {
 
   return (
     <div>
-      <p>Contador: {count}</p>
+      <p>Contador: 1</p>
       <button onClick={() => setCount(count + 1)}>Aumentar</button>
     </div>
   )
